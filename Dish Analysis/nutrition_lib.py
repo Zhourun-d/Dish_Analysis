@@ -1667,14 +1667,1810 @@ NUTRITION_DATA = {
 }
 
 
+# =========================== yolo v26的模型的营养数据库 ===========================
+NUTRITION_DATA_MULTI = {
+    "酸菜": {
+        "calories": 20,
+        "protein": 1.0,
+        "carbs": 3.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "开胃解腻，注意钠含量"
+    },
+    "炒饭": {
+        "calories": 180,
+        "protein": 6.0,
+        "carbs": 26.0,
+        "fat": 6.0,
+        "allergens": "鸡蛋",
+        "tips": "粒粒分明，适量食用"
+    },
+    "蛋花蔬菜汤": {
+        "calories": 40,
+        "protein": 3.0,
+        "carbs": 4.0,
+        "fat": 2.0,
+        "allergens": "鸡蛋",
+        "tips": "清淡可口，营养均衡"
+    },
+    "糖醋里脊": {
+        "calories": 260,
+        "protein": 14.0,
+        "carbs": 20.0,
+        "fat": 14.0,
+        "allergens": "无",
+        "tips": "酸甜酥脆，高糖油炸"
+    },
+    "早餐卷": {
+        "calories": 180,
+        "protein": 6.0,
+        "carbs": 24.0,
+        "fat": 7.0,
+        "allergens": "小麦",
+        "tips": "便携早餐，营养均衡"
+    },
+    "西葫芦黄豆汤": {
+        "calories": 45,
+        "protein": 3.0,
+        "carbs": 6.0,
+        "fat": 1.5,
+        "allergens": "大豆",
+        "tips": "清淡鲜美，补充蛋白"
+    },
+    "青椒炒鸡丁": {
+        "calories": 150,
+        "protein": 15.0,
+        "carbs": 5.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "青椒脆爽，鸡丁鲜嫩"
+    },
+    "馄饨": {
+        "calories": 150,
+        "protein": 7.0,
+        "carbs": 20.0,
+        "fat": 5.0,
+        "allergens": "小麦",
+        "tips": "皮滑馅鲜，汤底清淡"
+    },
+    "芹菜炒肉": {
+        "calories": 130,
+        "protein": 10.0,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "芹菜脆嫩，肉丝鲜香"
+    },
+    "南瓜泥": {
+        "calories": 45,
+        "protein": 1.0,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "绵密香甜，富含维生素"
+    },
+    "泡菜/韩式泡菜": {
+        "calories": 25,
+        "protein": 1.5,
+        "carbs": 4.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "韩式泡菜，低卡开胃"
+    },
+    "大白菜炖豆腐": {
+        "calories": 65,
+        "protein": 4.0,
+        "carbs": 5.0,
+        "fat": 3.0,
+        "allergens": "大豆",
+        "tips": "经典家常，清淡暖胃"
+    },
+    "蛋饺": {
+        "calories": 130,
+        "protein": 8.0,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "鸡蛋",
+        "tips": "蛋皮鲜嫩，肉馅多汁"
+    },
+    "玉米炒虾仁": {
+        "calories": 120,
+        "protein": 8.0,
+        "carbs": 10.0,
+        "fat": 5.0,
+        "allergens": "甲壳类",
+        "tips": "清甜Q弹，营养均衡"
+    },
+    "炒火腿": {
+        "calories": 150,
+        "protein": 8.0,
+        "carbs": 6.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "火腿咸香，适量食用"
+    },
+    "青椒炒牛肉": {
+        "calories": 160,
+        "protein": 18.0,
+        "carbs": 5.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "青椒清脆，牛肉嫩滑"
+    },
+    "烤鸭": {
+        "calories": 300,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 25.0,
+        "allergens": "无",
+        "tips": "皮脆肉嫩，高脂少吃"
+    },
+    "豆腐脑": {
+        "calories": 45,
+        "protein": 3.5,
+        "carbs": 2.5,
+        "fat": 2.0,
+        "allergens": "大豆",
+        "tips": "清淡早餐饮品，低卡"
+    },
+    "红烧带鱼": {
+        "calories": 190,
+        "protein": 18.0,
+        "carbs": 5.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "先煎后烧，咸鲜入味"
+    },
+    "肉丸": {
+        "calories": 180,
+        "protein": 12.0,
+        "carbs": 8.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "Q弹鲜香，适量食用"
+    },
+    "酱烧鸡腿": {
+        "calories": 200,
+        "protein": 16.0,
+        "carbs": 6.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "酱香浓郁，鸡腿嫩滑"
+    },
+    "脆鳕鱼条": {
+        "calories": 210,
+        "protein": 14.0,
+        "carbs": 14.0,
+        "fat": 12.0,
+        "allergens": "小麦",
+        "tips": "外酥里嫩，海鲜小吃"
+    },
+    "肉酱意面": {
+        "calories": 320,
+        "protein": 14.0,
+        "carbs": 38.0,
+        "fat": 13.0,
+        "allergens": "小麦",
+        "tips": "意式经典，饱腹感强"
+    },
+    "熏鱼": {
+        "calories": 180,
+        "protein": 16.0,
+        "carbs": 10.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "烟熏风味，注意钠含量"
+    },
+    "泡菜鱿鱼": {
+        "calories": 150,
+        "protein": 14.0,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "韩式风味，下饭好菜"
+    },
+    "青椒炒肉": {
+        "calories": 150,
+        "protein": 12.0,
+        "carbs": 6.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "经典家常菜，青椒脆爽"
+    },
+    "土豆炒豆角": {
+        "calories": 105,
+        "protein": 3.0,
+        "carbs": 12.0,
+        "fat": 5.0,
+        "allergens": "无",
+        "tips": "经典炖菜，纤维丰富"
+    },
+    "炒土豆丝": {
+        "calories": 110,
+        "protein": 2.5,
+        "carbs": 18.0,
+        "fat": 3.5,
+        "allergens": "无",
+        "tips": "酸辣开胃，碳水较多"
+    },
+    "腌萝卜": {
+        "calories": 25,
+        "protein": 0.5,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "爽脆开胃，佐餐小菜"
+    },
+    "火腿披萨": {
+        "calories": 260,
+        "protein": 12.0,
+        "carbs": 30.0,
+        "fat": 11.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "经典口味，适量食用"
+    },
+    "紫甘蓝": {
+        "calories": 35,
+        "protein": 1.5,
+        "carbs": 6.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "富含花青素，凉拌更佳"
+    },
+    "粥": {
+        "calories": 60,
+        "protein": 1.5,
+        "carbs": 12.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "清淡暖胃，易消化"
+    },
+    "麻婆豆腐": {
+        "calories": 120,
+        "protein": 6.5,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "大豆",
+        "tips": "麻辣鲜香，注意钠含量"
+    },
+    "蘑菇烧秋葵": {
+        "calories": 50,
+        "protein": 2.5,
+        "carbs": 6.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "秋葵滑嫩，营养丰富"
+    },
+    "红糖馒头": {
+        "calories": 180,
+        "protein": 4.5,
+        "carbs": 35.0,
+        "fat": 1.5,
+        "allergens": "小麦",
+        "tips": "香甜松软，粗粮主食"
+    },
+    "红豆沙包": {
+        "calories": 190,
+        "protein": 5.0,
+        "carbs": 32.0,
+        "fat": 4.0,
+        "allergens": "小麦",
+        "tips": "甜香绵密，早餐可选"
+    },
+    "鲜果沙拉": {
+        "calories": 80,
+        "protein": 1.0,
+        "carbs": 18.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "缤纷水果，清爽健康"
+    },
+    "炒扁豆": {
+        "calories": 105,
+        "protein": 4.0,
+        "carbs": 12.0,
+        "fat": 4.5,
+        "allergens": "无",
+        "tips": "扁豆软糯，营养丰富"
+    },
+    "红糖糕": {
+        "calories": 190,
+        "protein": 3.0,
+        "carbs": 38.0,
+        "fat": 3.0,
+        "allergens": "小麦",
+        "tips": "松软香甜，传统糕点"
+    },
+    "青椒炒肉片": {
+        "calories": 150,
+        "protein": 12.0,
+        "carbs": 6.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "肉片滑嫩，青椒鲜香"
+    },
+    "芹菜炒黄豆芽": {
+        "calories": 60,
+        "protein": 3.0,
+        "carbs": 6.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "脆爽双倍，低卡健康"
+    },
+    "蘑菇披萨": {
+        "calories": 230,
+        "protein": 9.0,
+        "carbs": 28.0,
+        "fat": 10.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "菌菇风味，适量食用"
+    },
+    "豆腐": {
+        "calories": 80,
+        "protein": 6.0,
+        "carbs": 3.0,
+        "fat": 5.0,
+        "allergens": "大豆",
+        "tips": "优质植物蛋白，每日可食"
+    },
+    "炒猪肝": {
+        "calories": 150,
+        "protein": 18.0,
+        "carbs": 4.0,
+        "fat": 7.0,
+        "allergens": "无",
+        "tips": "补血养肝，适量食用"
+    },
+    "炒茄子": {
+        "calories": 120,
+        "protein": 2.0,
+        "carbs": 10.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "茄子吸油，注意控油"
+    },
+    "生菜炒肉": {
+        "calories": 120,
+        "protein": 10.0,
+        "carbs": 4.0,
+        "fat": 7.0,
+        "allergens": "无",
+        "tips": "荤素搭配，营养均衡"
+    },
+    "醋溜粉丝": {
+        "calories": 120,
+        "protein": 2.0,
+        "carbs": 22.0,
+        "fat": 3.0,
+        "allergens": "无",
+        "tips": "酸爽开胃，碳水较多"
+    },
+    "青椒炖豆腐": {
+        "calories": 90,
+        "protein": 5.0,
+        "carbs": 5.0,
+        "fat": 5.5,
+        "allergens": "大豆",
+        "tips": "青椒清香，豆腐滑嫩"
+    },
+    "脉动运动饮料": {
+        "calories": 30,
+        "protein": 0.0,
+        "carbs": 7.0,
+        "fat": 0.0,
+        "allergens": "无",
+        "tips": "补充电解质，运动饮用"
+    },
+    "菜花炒金针菇": {
+        "calories": 55,
+        "protein": 2.5,
+        "carbs": 7.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "双倍纤维，清爽低卡"
+    },
+    "牛排": {
+        "calories": 200,
+        "protein": 22.0,
+        "carbs": 2.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "高蛋白西餐，煎制少油"
+    },
+    "白菜粉丝": {
+        "calories": 80,
+        "protein": 2.0,
+        "carbs": 14.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "清淡爽口，经典搭配"
+    },
+    "猪肉包": {
+        "calories": 220,
+        "protein": 8.0,
+        "carbs": 28.0,
+        "fat": 9.0,
+        "allergens": "小麦",
+        "tips": "早餐经典，适量食用"
+    },
+    "牛奶": {
+        "calories": 65,
+        "protein": 3.5,
+        "carbs": 5.0,
+        "fat": 3.5,
+        "allergens": "乳制品",
+        "tips": "补钙好选择，每日一杯"
+    },
+    "大白菜粉丝": {
+        "calories": 80,
+        "protein": 2.0,
+        "carbs": 14.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "粉丝软糯，白菜清甜"
+    },
+    "烤鸭肉": {
+        "calories": 290,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 24.0,
+        "allergens": "无",
+        "tips": "高脂高蛋白，适量食用"
+    },
+    "鸡蛋饼": {
+        "calories": 150,
+        "protein": 6.0,
+        "carbs": 18.0,
+        "fat": 6.0,
+        "allergens": "小麦, 鸡蛋",
+        "tips": "早餐经典，简单美味"
+    },
+    "紫菜蛋花汤": {
+        "calories": 35,
+        "protein": 3.0,
+        "carbs": 3.0,
+        "fat": 1.5,
+        "allergens": "鸡蛋",
+        "tips": "鲜美快手汤，低卡营养"
+    },
+    "胡椒鸡": {
+        "calories": 160,
+        "protein": 18.0,
+        "carbs": 4.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "胡椒香气，暖胃驱寒"
+    },
+    "炸鸡翅": {
+        "calories": 280,
+        "protein": 15.0,
+        "carbs": 12.0,
+        "fat": 19.0,
+        "allergens": "无",
+        "tips": "外酥里嫩，高热量零食"
+    },
+    "糖醋鸡胸肉": {
+        "calories": 200,
+        "protein": 18.0,
+        "carbs": 16.0,
+        "fat": 7.0,
+        "allergens": "无",
+        "tips": "酸甜可口，鸡胸低脂"
+    },
+    "洋葱炒鸡蛋": {
+        "calories": 100,
+        "protein": 6.0,
+        "carbs": 5.0,
+        "fat": 6.5,
+        "allergens": "鸡蛋",
+        "tips": "洋葱甜软，鸡蛋鲜香"
+    },
+    "酸辣土豆丝": {
+        "calories": 110,
+        "protein": 2.5,
+        "carbs": 18.0,
+        "fat": 3.5,
+        "allergens": "无",
+        "tips": "酸辣开胃，碳水较多"
+    },
+    "干锅土豆片": {
+        "calories": 160,
+        "protein": 3.0,
+        "carbs": 16.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "香辣过瘾，适量食用"
+    },
+    "蘑菇烤肉": {
+        "calories": 180,
+        "protein": 14.0,
+        "carbs": 6.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "菌菇烤肉，风味独特"
+    },
+    "土豆": {
+        "calories": 80,
+        "protein": 2.0,
+        "carbs": 17.0,
+        "fat": 0.1,
+        "allergens": "无",
+        "tips": "优质碳水，可作主食"
+    },
+    "鸡蛋汤": {
+        "calories": 40,
+        "protein": 3.0,
+        "carbs": 2.0,
+        "fat": 2.5,
+        "allergens": "鸡蛋",
+        "tips": "清淡暖胃，家常汤品"
+    },
+    "清炒时蔬": {
+        "calories": 50,
+        "protein": 1.5,
+        "carbs": 4.0,
+        "fat": 3.0,
+        "allergens": "无",
+        "tips": "时令蔬菜，清淡健康"
+    },
+    "话梅花生": {
+        "calories": 180,
+        "protein": 7.0,
+        "carbs": 12.0,
+        "fat": 12.0,
+        "allergens": "花生",
+        "tips": "酸甜开胃，适量食用"
+    },
+    "面条": {
+        "calories": 140,
+        "protein": 5.0,
+        "carbs": 28.0,
+        "fat": 1.0,
+        "allergens": "小麦",
+        "tips": "主食选择，搭配蔬菜更佳"
+    },
+    "炒蘑菇片": {
+        "calories": 45,
+        "protein": 2.5,
+        "carbs": 5.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "鲜嫩爽口，营养丰富"
+    },
+    "风干牛肉": {
+        "calories": 250,
+        "protein": 30.0,
+        "carbs": 4.0,
+        "fat": 13.0,
+        "allergens": "无",
+        "tips": "高蛋白零食，嚼劲十足"
+    },
+    "馒头": {
+        "calories": 150,
+        "protein": 5.0,
+        "carbs": 30.0,
+        "fat": 1.0,
+        "allergens": "小麦",
+        "tips": "主食基础，可搭配菜肴"
+    },
+    "宫保鸡丁": {
+        "calories": 160,
+        "protein": 15.0,
+        "carbs": 8.0,
+        "fat": 8.0,
+        "allergens": "花生",
+        "tips": "酸甜微辣，花生酥脆"
+    },
+    "紫菜汤": {
+        "calories": 20,
+        "protein": 1.5,
+        "carbs": 2.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "鲜美好喝，富含碘"
+    },
+    "海鲜面": {
+        "calories": 200,
+        "protein": 12.0,
+        "carbs": 28.0,
+        "fat": 6.0,
+        "allergens": "小麦, 甲壳类",
+        "tips": "鲜美汤面，营养均衡"
+    },
+    "鸡蛋": {
+        "calories": 70,
+        "protein": 7.0,
+        "carbs": 1.0,
+        "fat": 4.5,
+        "allergens": "鸡蛋",
+        "tips": "优质蛋白，营养丰富"
+    },
+    "皮蛋豆腐": {
+        "calories": 80,
+        "protein": 5.0,
+        "carbs": 4.0,
+        "fat": 5.0,
+        "allergens": "大豆",
+        "tips": "清凉爽口，经典凉菜"
+    },
+    "葱花卷": {
+        "calories": 160,
+        "protein": 5.0,
+        "carbs": 28.0,
+        "fat": 3.0,
+        "allergens": "小麦",
+        "tips": "咸香松软，早餐好配"
+    },
+    "煮菜花": {
+        "calories": 30,
+        "protein": 1.5,
+        "carbs": 5.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "清淡原味，健康低卡"
+    },
+    "大肉丸": {
+        "calories": 200,
+        "protein": 14.0,
+        "carbs": 8.0,
+        "fat": 13.0,
+        "allergens": "无",
+        "tips": "红烧大丸子，宴客硬菜"
+    },
+    "蟹黄酱": {
+        "calories": 120,
+        "protein": 3.0,
+        "carbs": 4.0,
+        "fat": 10.0,
+        "allergens": "甲壳类",
+        "tips": "鲜香浓郁，注意钠含量"
+    },
+    "鸡蛋糕": {
+        "calories": 200,
+        "protein": 5.0,
+        "carbs": 25.0,
+        "fat": 9.0,
+        "allergens": "小麦, 鸡蛋",
+        "tips": "松软香甜，适量食用"
+    },
+    "炒菜花": {
+        "calories": 50,
+        "protein": 2.0,
+        "carbs": 6.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "花菜脆嫩，富含维C"
+    },
+    "奶黄流沙包": {
+        "calories": 220,
+        "protein": 5.0,
+        "carbs": 30.0,
+        "fat": 9.0,
+        "allergens": "小麦, 鸡蛋, 乳制品",
+        "tips": "流心咸甜，广式点心"
+    },
+    "豆芽": {
+        "calories": 30,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "低卡高纤，清脆爽口"
+    },
+    "家常豆腐": {
+        "calories": 110,
+        "protein": 6.0,
+        "carbs": 5.5,
+        "fat": 7.0,
+        "allergens": "大豆",
+        "tips": "家常风味，适量食用"
+    },
+    "炒虾仁": {
+        "calories": 100,
+        "protein": 12.0,
+        "carbs": 4.0,
+        "fat": 4.5,
+        "allergens": "甲壳类",
+        "tips": "Q弹鲜美，清淡低卡"
+    },
+    "木耳炒肉": {
+        "calories": 140,
+        "protein": 10.0,
+        "carbs": 7.0,
+        "fat": 8.5,
+        "allergens": "无",
+        "tips": "木耳脆爽，肉丝嫩滑"
+    },
+    "辣子鸡": {
+        "calories": 230,
+        "protein": 18.0,
+        "carbs": 8.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "干香麻辣，油炸鸡块"
+    },
+    "红烧土豆": {
+        "calories": 130,
+        "protein": 2.5,
+        "carbs": 18.0,
+        "fat": 5.0,
+        "allergens": "无",
+        "tips": "酱香软糯，下饭好菜"
+    },
+    "粽子": {
+        "calories": 220,
+        "protein": 6.0,
+        "carbs": 35.0,
+        "fat": 6.0,
+        "allergens": "无",
+        "tips": "端午传统，糯米难消化"
+    },
+    "土豆香肠": {
+        "calories": 200,
+        "protein": 8.0,
+        "carbs": 15.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "荤素搭配，适量食用"
+    },
+    "炒豆角": {
+        "calories": 110,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "fat": 6.0,
+        "allergens": "无",
+        "tips": "豆角要熟透，家常小炒"
+    },
+    "芝麻煎堆": {
+        "calories": 230,
+        "protein": 5.0,
+        "carbs": 28.0,
+        "fat": 12.0,
+        "allergens": "小麦, 芝麻",
+        "tips": "酥脆甜香，广式点心"
+    },
+    "小米粥": {
+        "calories": 70,
+        "protein": 2.0,
+        "carbs": 14.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "养胃暖身，早餐佳品"
+    },
+    "炖海鲜": {
+        "calories": 130,
+        "protein": 15.0,
+        "carbs": 6.0,
+        "fat": 5.0,
+        "allergens": "甲壳类",
+        "tips": "鲜美暖身，营养丰富"
+    },
+    "青豆炒蘑菇": {
+        "calories": 80,
+        "protein": 4.5,
+        "carbs": 10.0,
+        "fat": 3.0,
+        "allergens": "无",
+        "tips": "青豆鲜甜，菌菇滑嫩"
+    },
+    "土豆炒青椒": {
+        "calories": 100,
+        "protein": 2.5,
+        "carbs": 14.0,
+        "fat": 4.0,
+        "allergens": "无",
+        "tips": "青椒脆爽，家常美味"
+    },
+    "蔬菜包": {
+        "calories": 150,
+        "protein": 4.0,
+        "carbs": 28.0,
+        "fat": 3.0,
+        "allergens": "小麦",
+        "tips": "低脂素包，早餐佳选"
+    },
+    "煎饺": {
+        "calories": 230,
+        "protein": 8.0,
+        "carbs": 24.0,
+        "fat": 12.0,
+        "allergens": "小麦",
+        "tips": "底脆馅香，适量食用"
+    },
+    "卤鸡爪": {
+        "calories": 210,
+        "protein": 16.0,
+        "carbs": 6.0,
+        "fat": 13.0,
+        "allergens": "无",
+        "tips": "软糯入味，胶原丰富"
+    },
+    "香肠": {
+        "calories": 280,
+        "protein": 12.0,
+        "carbs": 5.0,
+        "fat": 22.0,
+        "allergens": "无",
+        "tips": "高脂加工肉，适量食用"
+    },
+    "梅干菜扣肉": {
+        "calories": 350,
+        "protein": 12.0,
+        "carbs": 10.0,
+        "fat": 28.0,
+        "allergens": "无",
+        "tips": "梅菜吸油，五花肉香"
+    },
+    "青豆炒鸡肉": {
+        "calories": 140,
+        "protein": 14.0,
+        "carbs": 8.0,
+        "fat": 6.0,
+        "allergens": "无",
+        "tips": "青豆清甜，鸡肉鲜嫩"
+    },
+    "炒豆芽": {
+        "calories": 35,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 1.5,
+        "allergens": "无",
+        "tips": "清脆爽口，极低热量"
+    },
+    "芹菜豆腐": {
+        "calories": 90,
+        "protein": 6.0,
+        "carbs": 6.0,
+        "fat": 5.0,
+        "allergens": "大豆",
+        "tips": "清脆爽口，植物蛋白"
+    },
+    "大白菜": {
+        "calories": 20,
+        "protein": 1.5,
+        "carbs": 3.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "百搭蔬菜，营养丰富"
+    },
+    "糖拌番茄": {
+        "calories": 40,
+        "protein": 1.0,
+        "carbs": 8.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "白糖凉拌，清爽酸甜"
+    },
+    "冰茶": {
+        "calories": 40,
+        "protein": 0.0,
+        "carbs": 10.0,
+        "fat": 0.0,
+        "allergens": "无",
+        "tips": "清凉解渴，注意糖分"
+    },
+    "猪排": {
+        "calories": 240,
+        "protein": 18.0,
+        "carbs": 6.0,
+        "fat": 16.0,
+        "allergens": "无",
+        "tips": "外酥里嫩，适量食用"
+    },
+    "烤鸡": {
+        "calories": 180,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "烤鸡去皮后更健康"
+    },
+    "炒面": {
+        "calories": 250,
+        "protein": 10.0,
+        "carbs": 32.0,
+        "fat": 10.0,
+        "allergens": "小麦",
+        "tips": "锅气十足，适量食用"
+    },
+    "腌青豆": {
+        "calories": 100,
+        "protein": 6.0,
+        "carbs": 10.0,
+        "fat": 4.0,
+        "allergens": "无",
+        "tips": "咸香入味，佐餐小菜"
+    },
+    "台湾饭团": {
+        "calories": 210,
+        "protein": 7.0,
+        "carbs": 32.0,
+        "fat": 6.0,
+        "allergens": "无",
+        "tips": "便携早餐，口感丰富"
+    },
+    "红烧金针菇": {
+        "calories": 55,
+        "protein": 2.5,
+        "carbs": 7.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "金针菇吸汁，鲜美滑嫩"
+    },
+    "花生": {
+        "calories": 567,
+        "protein": 25.0,
+        "carbs": 16.0,
+        "fat": 49.0,
+        "allergens": "花生",
+        "tips": "高热量坚果，每次一小把"
+    },
+    "酱炒黄豆": {
+        "calories": 150,
+        "protein": 10.0,
+        "carbs": 12.0,
+        "fat": 7.0,
+        "allergens": "大豆",
+        "tips": "酱香浓郁，下饭小菜"
+    },
+    "炸鸡腿": {
+        "calories": 320,
+        "protein": 18.0,
+        "carbs": 15.0,
+        "fat": 21.0,
+        "allergens": "无",
+        "tips": "外酥里嫩，高热量零食"
+    },
+    "炸薯条": {
+        "calories": 312,
+        "protein": 3.4,
+        "carbs": 41.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "高热量零食，偶尔解馋"
+    },
+    "菲力牛排": {
+        "calories": 180,
+        "protein": 24.0,
+        "carbs": 2.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "最嫩部位，高蛋白低脂"
+    },
+    "菜花": {
+        "calories": 30,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "低卡高纤维，营养丰富"
+    },
+    "酒酿汤": {
+        "calories": 70,
+        "protein": 1.0,
+        "carbs": 14.0,
+        "fat": 1.0,
+        "allergens": "无",
+        "tips": "甜香暖身，补气养血"
+    },
+    "清蒸白蟹": {
+        "calories": 100,
+        "protein": 15.0,
+        "carbs": 2.0,
+        "fat": 4.0,
+        "allergens": "甲壳类",
+        "tips": "原汁原味，高蛋白低脂"
+    },
+    "香蕉奶糕": {
+        "calories": 200,
+        "protein": 4.0,
+        "carbs": 28.0,
+        "fat": 8.0,
+        "allergens": "乳制品",
+        "tips": "香甜软糯，甜品适量"
+    },
+    "番茄炒蛋": {
+        "calories": 98,
+        "protein": 6.5,
+        "carbs": 5.0,
+        "fat": 5.8,
+        "allergens": "鸡蛋",
+        "tips": "国民家常菜，酸甜可口"
+    },
+    "菠萝披萨": {
+        "calories": 250,
+        "protein": 10.0,
+        "carbs": 32.0,
+        "fat": 10.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "甜咸风味，适量食用"
+    },
+    "鱼香肉丝": {
+        "calories": 160,
+        "protein": 11.0,
+        "carbs": 12.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "酸甜微辣，下饭神器"
+    },
+    "米饭": {
+        "calories": 130,
+        "protein": 2.5,
+        "carbs": 28.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "主食首选，适量食用"
+    },
+    "卤牛肉": {
+        "calories": 170,
+        "protein": 22.0,
+        "carbs": 3.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "高蛋白低脂，健身佳选"
+    },
+    "红烧鲫鱼": {
+        "calories": 180,
+        "protein": 16.0,
+        "carbs": 5.0,
+        "fat": 10.0,
+        "allergens": "无",
+        "tips": "酱香浓郁，刺多慢食"
+    },
+    "水果披萨": {
+        "calories": 230,
+        "protein": 7.0,
+        "carbs": 34.0,
+        "fat": 8.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "清新果香，甜点披萨"
+    },
+    "炸舌鳎": {
+        "calories": 230,
+        "protein": 14.0,
+        "carbs": 12.0,
+        "fat": 14.0,
+        "allergens": "无",
+        "tips": "酥脆鲜嫩，油炸少吃"
+    },
+    "番茄汤": {
+        "calories": 35,
+        "protein": 1.5,
+        "carbs": 5.0,
+        "fat": 1.0,
+        "allergens": "无",
+        "tips": "酸甜开胃，清淡低卡"
+    },
+    "蒸蛋": {
+        "calories": 65,
+        "protein": 6.0,
+        "carbs": 2.0,
+        "fat": 4.0,
+        "allergens": "鸡蛋",
+        "tips": "嫩滑易消化，老少皆宜"
+    },
+    "黑米粥": {
+        "calories": 80,
+        "protein": 2.5,
+        "carbs": 16.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "养生暖胃，富含花青素"
+    },
+    "香辣鸭": {
+        "calories": 220,
+        "protein": 16.0,
+        "carbs": 5.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "香辣入味，下饭好菜"
+    },
+    "凉拌绿豆芽": {
+        "calories": 30,
+        "protein": 2.0,
+        "carbs": 4.0,
+        "fat": 1.0,
+        "allergens": "无",
+        "tips": "清爽开胃，极低热量"
+    },
+    "月饼": {
+        "calories": 400,
+        "protein": 6.0,
+        "carbs": 50.0,
+        "fat": 20.0,
+        "allergens": "小麦, 坚果",
+        "tips": "高糖高油，节日适量"
+    },
+    "南瓜派": {
+        "calories": 210,
+        "protein": 3.5,
+        "carbs": 28.0,
+        "fat": 10.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "甜点小吃，适量食用"
+    },
+    "洋葱圈": {
+        "calories": 200,
+        "protein": 3.0,
+        "carbs": 24.0,
+        "fat": 10.0,
+        "allergens": "小麦",
+        "tips": "酥脆洋葱，油炸小吃"
+    },
+    "日本豆腐": {
+        "calories": 95,
+        "protein": 5.0,
+        "carbs": 8.0,
+        "fat": 5.0,
+        "allergens": "鸡蛋",
+        "tips": "口感嫩滑，非传统豆腐"
+    },
+    "炒西葫芦": {
+        "calories": 50,
+        "protein": 1.8,
+        "carbs": 5.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "西葫芦脆嫩，清淡健康"
+    },
+    "洋葱烤牛肉": {
+        "calories": 200,
+        "protein": 18.0,
+        "carbs": 8.0,
+        "fat": 11.0,
+        "allergens": "无",
+        "tips": "洋葱鲜甜，牛肉焦香"
+    },
+    "香蕉": {
+        "calories": 93,
+        "protein": 1.0,
+        "carbs": 23.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "补钾佳品，运动水果"
+    },
+    "青菜蘑菇": {
+        "calories": 50,
+        "protein": 2.0,
+        "carbs": 5.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "菌菇提鲜，营养均衡"
+    },
+    "蒸杂粮": {
+        "calories": 80,
+        "protein": 2.5,
+        "carbs": 16.0,
+        "fat": 0.8,
+        "allergens": "无",
+        "tips": "粗粮健康，富含膳食纤维"
+    },
+    "花生奶": {
+        "calories": 120,
+        "protein": 4.0,
+        "carbs": 10.0,
+        "fat": 7.0,
+        "allergens": "花生, 乳制品",
+        "tips": "香浓可口，适量饮用"
+    },
+    "玉米": {
+        "calories": 110,
+        "protein": 4.0,
+        "carbs": 20.0,
+        "fat": 1.5,
+        "allergens": "无",
+        "tips": "优质碳水，富含纤维"
+    },
+    "炸虾": {
+        "calories": 220,
+        "protein": 12.0,
+        "carbs": 10.0,
+        "fat": 15.0,
+        "allergens": "甲壳类",
+        "tips": "酥脆鲜香，油炸少吃"
+    },
+    "煮鸡蛋": {
+        "calories": 70,
+        "protein": 7.0,
+        "carbs": 1.0,
+        "fat": 4.5,
+        "allergens": "鸡蛋",
+        "tips": "优质蛋白，每日一个"
+    },
+    "海带沙拉": {
+        "calories": 40,
+        "protein": 1.0,
+        "carbs": 6.0,
+        "fat": 1.5,
+        "allergens": "无",
+        "tips": "富含碘元素，凉拌低卡"
+    },
+    "烤鸡翅": {
+        "calories": 185,
+        "protein": 15.0,
+        "carbs": 4.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "外焦里嫩，适量食用"
+    },
+    "沙拉": {
+        "calories": 60,
+        "protein": 2.0,
+        "carbs": 8.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "清爽低卡，注意沙拉酱"
+    },
+    "炒蘑菇": {
+        "calories": 45,
+        "protein": 2.5,
+        "carbs": 5.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "菌肉肥厚，低卡鲜美"
+    },
+    "炒土豆片": {
+        "calories": 115,
+        "protein": 2.5,
+        "carbs": 17.0,
+        "fat": 4.0,
+        "allergens": "无",
+        "tips": "家常小炒，清爽可口"
+    },
+    "半根油条": {
+        "calories": 130,
+        "protein": 3.0,
+        "carbs": 15.0,
+        "fat": 7.0,
+        "allergens": "小麦",
+        "tips": "酥脆油香，油炸少吃"
+    },
+    "海鲜饭": {
+        "calories": 200,
+        "protein": 12.0,
+        "carbs": 28.0,
+        "fat": 6.0,
+        "allergens": "甲壳类",
+        "tips": "鲜味十足，营养丰富"
+    },
+    "鸡丝汤": {
+        "calories": 60,
+        "protein": 6.0,
+        "carbs": 4.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "鲜美暖胃，清淡营养"
+    },
+    "凉拌粉丝": {
+        "calories": 110,
+        "protein": 2.0,
+        "carbs": 20.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "爽口开胃，夏日凉菜"
+    },
+    "红烧茄子": {
+        "calories": 145,
+        "protein": 2.0,
+        "carbs": 12.0,
+        "fat": 10.0,
+        "allergens": "无",
+        "tips": "酸甜微辣，茄子吸油"
+    },
+    "红烧排骨": {
+        "calories": 290,
+        "protein": 14.0,
+        "carbs": 8.0,
+        "fat": 22.0,
+        "allergens": "无",
+        "tips": "酱香浓郁，适量食用"
+    },
+    "鸡块": {
+        "calories": 150,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "鸡肉蛋白质丰富，去皮更佳"
+    },
+    "牛肉干饭": {
+        "calories": 230,
+        "protein": 16.0,
+        "carbs": 22.0,
+        "fat": 10.0,
+        "allergens": "无",
+        "tips": "肉香饭软，一餐搞定"
+    },
+    "焖面": {
+        "calories": 220,
+        "protein": 10.0,
+        "carbs": 30.0,
+        "fat": 8.0,
+        "allergens": "小麦",
+        "tips": "面条吸汁，一锅出"
+    },
+    "烤排骨": {
+        "calories": 280,
+        "protein": 18.0,
+        "carbs": 6.0,
+        "fat": 20.0,
+        "allergens": "无",
+        "tips": "焦香软糯，聚会硬菜"
+    },
+    "番茄": {
+        "calories": 20,
+        "protein": 1.0,
+        "carbs": 4.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "富含维C，生吃熟食皆可"
+    },
+    "口水鸡": {
+        "calories": 210,
+        "protein": 18.0,
+        "carbs": 5.0,
+        "fat": 14.0,
+        "allergens": "无",
+        "tips": "麻辣红油，川味凉菜"
+    },
+    "奥尔良烤翅": {
+        "calories": 190,
+        "protein": 15.0,
+        "carbs": 6.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "甜辣风味，烤箱更健康"
+    },
+    "蒜香面包": {
+        "calories": 200,
+        "protein": 5.0,
+        "carbs": 26.0,
+        "fat": 9.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "蒜香酥脆，西式小吃"
+    },
+    "特制鸡块": {
+        "calories": 180,
+        "protein": 15.0,
+        "carbs": 8.0,
+        "fat": 10.0,
+        "allergens": "无",
+        "tips": "风味独特，适量食用"
+    },
+    "清蒸小黄鱼": {
+        "calories": 120,
+        "protein": 16.0,
+        "carbs": 2.0,
+        "fat": 5.5,
+        "allergens": "无",
+        "tips": "鲜嫩营养，清蒸更健康"
+    },
+    "经典披萨": {
+        "calories": 270,
+        "protein": 12.0,
+        "carbs": 30.0,
+        "fat": 12.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "意式经典，饱腹感强"
+    },
+    "啤酒鸭": {
+        "calories": 240,
+        "protein": 16.0,
+        "carbs": 6.0,
+        "fat": 16.0,
+        "allergens": "无",
+        "tips": "啤酒去腥，鸭肉软烂"
+    },
+    "藕片": {
+        "calories": 70,
+        "protein": 1.5,
+        "carbs": 15.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "清甜脆藕，可做主食"
+    },
+    "土豆炖牛肉": {
+        "calories": 180,
+        "protein": 14.0,
+        "carbs": 14.0,
+        "fat": 9.0,
+        "allergens": "无",
+        "tips": "经典炖菜，营养丰富"
+    },
+    "凉拌黄瓜": {
+        "calories": 30,
+        "protein": 1.0,
+        "carbs": 4.0,
+        "fat": 1.5,
+        "allergens": "无",
+        "tips": "拍黄瓜凉拌，低卡爽口"
+    },
+    "洋葱烤里脊": {
+        "calories": 190,
+        "protein": 18.0,
+        "carbs": 7.0,
+        "fat": 10.0,
+        "allergens": "无",
+        "tips": "洋葱提香，里脊嫩滑"
+    },
+    "鸡酱面": {
+        "calories": 220,
+        "protein": 14.0,
+        "carbs": 28.0,
+        "fat": 7.0,
+        "allergens": "小麦",
+        "tips": "酱香浓郁，面条饱腹"
+    },
+    "炸土豆": {
+        "calories": 280,
+        "protein": 3.5,
+        "carbs": 32.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "香脆可口，高热量少吃"
+    },
+    "红薯乐乐": {
+        "calories": 90,
+        "protein": 1.5,
+        "carbs": 20.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "香甜软糯，富含膳食纤维"
+    },
+    "烤虾": {
+        "calories": 140,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 7.0,
+        "allergens": "甲壳类",
+        "tips": "焦香Q弹，简单美味"
+    },
+    "炸鸡排": {
+        "calories": 300,
+        "protein": 16.0,
+        "carbs": 18.0,
+        "fat": 18.0,
+        "allergens": "无",
+        "tips": "香酥可口，偶尔解馋"
+    },
+    "菲力牛排意面": {
+        "calories": 350,
+        "protein": 22.0,
+        "carbs": 35.0,
+        "fat": 15.0,
+        "allergens": "小麦",
+        "tips": "主食+肉类，饱腹感强"
+    },
+    "胡萝卜炒菜花": {
+        "calories": 55,
+        "protein": 2.0,
+        "carbs": 7.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "色彩鲜艳，营养均衡"
+    },
+    "西葫芦": {
+        "calories": 25,
+        "protein": 1.5,
+        "carbs": 4.0,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "低卡高水分，清脆爽口"
+    },
+    "玉米馒头": {
+        "calories": 160,
+        "protein": 4.5,
+        "carbs": 30.0,
+        "fat": 2.0,
+        "allergens": "小麦",
+        "tips": "粗粮主食，营养健康"
+    },
+    "外婆菜": {
+        "calories": 80,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "fat": 3.5,
+        "allergens": "无",
+        "tips": "湘西风味，下饭菜"
+    },
+    "至尊披萨": {
+        "calories": 300,
+        "protein": 14.0,
+        "carbs": 30.0,
+        "fat": 15.0,
+        "allergens": "小麦, 乳制品",
+        "tips": "配料丰富，热量较高"
+    },
+    "椰奶昔": {
+        "calories": 180,
+        "protein": 2.0,
+        "carbs": 22.0,
+        "fat": 10.0,
+        "allergens": "乳制品",
+        "tips": "香甜浓郁，高糖饮品"
+    },
+    "泡菜炒鱿鱼": {
+        "calories": 150,
+        "protein": 14.0,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "无",
+        "tips": "泡菜酸辣，鱿鱼Q弹"
+    },
+    "炒葫芦": {
+        "calories": 45,
+        "protein": 1.5,
+        "carbs": 5.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "清甜软嫩，清淡低卡"
+    },
+    "炸鸡翅根": {
+        "calories": 290,
+        "protein": 15.0,
+        "carbs": 12.0,
+        "fat": 20.0,
+        "allergens": "无",
+        "tips": "香酥可口，偶尔解馋"
+    },
+    "凉拌豆角": {
+        "calories": 65,
+        "protein": 2.5,
+        "carbs": 8.0,
+        "fat": 2.5,
+        "allergens": "无",
+        "tips": "清爽开胃，夏日佳品"
+    },
+    "鸭腿": {
+        "calories": 190,
+        "protein": 16.0,
+        "carbs": 2.0,
+        "fat": 13.0,
+        "allergens": "无",
+        "tips": "鸭肉高蛋白，去皮更佳"
+    },
+    "糖醋排骨": {
+        "calories": 290,
+        "protein": 14.0,
+        "carbs": 22.0,
+        "fat": 16.0,
+        "allergens": "无",
+        "tips": "酸甜开胃，高糖高油"
+    },
+    "重庆毛血旺": {
+        "calories": 220,
+        "protein": 14.0,
+        "carbs": 8.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "麻辣汤底，配料丰富"
+    },
+    "凉拌豆腐": {
+        "calories": 60,
+        "protein": 4.0,
+        "carbs": 3.0,
+        "fat": 3.5,
+        "allergens": "大豆",
+        "tips": "清爽低卡，夏日凉菜"
+    },
+    "南瓜粥": {
+        "calories": 50,
+        "protein": 1.2,
+        "carbs": 10.5,
+        "fat": 0.3,
+        "allergens": "无",
+        "tips": "暖胃养身，早餐佳选"
+    },
+    "蒸猪肉饺子": {
+        "calories": 180,
+        "protein": 8.0,
+        "carbs": 22.0,
+        "fat": 7.0,
+        "allergens": "小麦",
+        "tips": "蒸制更健康，经典口味"
+    },
+    "豆浆": {
+        "calories": 60,
+        "protein": 4.0,
+        "carbs": 5.0,
+        "fat": 3.0,
+        "allergens": "大豆",
+        "tips": "优质植物蛋白，每日一杯"
+    },
+    "熟虾": {
+        "calories": 100,
+        "protein": 18.0,
+        "carbs": 1.0,
+        "fat": 2.5,
+        "allergens": "甲壳类",
+        "tips": "原汁原味，高蛋白低脂"
+    },
+    "红烧肉": {
+        "calories": 380,
+        "protein": 12.0,
+        "carbs": 10.0,
+        "fat": 32.0,
+        "allergens": "无",
+        "tips": "肥而不腻，高脂少吃"
+    },
+    "炸秋葵": {
+        "calories": 180,
+        "protein": 3.0,
+        "carbs": 14.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "外酥里嫩，油炸少吃"
+    },
+    "蘑菇沙拉": {
+        "calories": 60,
+        "protein": 2.5,
+        "carbs": 6.0,
+        "fat": 3.0,
+        "allergens": "无",
+        "tips": "清爽低卡，富含纤维"
+    },
+    "炒四季豆": {
+        "calories": 115,
+        "protein": 3.0,
+        "carbs": 10.0,
+        "fat": 7.0,
+        "allergens": "无",
+        "tips": "四季豆熟透食用，干煸更香"
+    },
+    "千页豆腐": {
+        "calories": 110,
+        "protein": 6.0,
+        "carbs": 6.0,
+        "fat": 7.0,
+        "allergens": "大豆",
+        "tips": "Q弹口感，豆制品佳选"
+    },
+    "葱油拌面": {
+        "calories": 230,
+        "protein": 6.0,
+        "carbs": 32.0,
+        "fat": 10.0,
+        "allergens": "小麦",
+        "tips": "葱香四溢，简单美味"
+    },
+    "白菜米粉": {
+        "calories": 100,
+        "protein": 3.0,
+        "carbs": 18.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "米粉滑爽，白菜清甜"
+    },
+    "酸菜鱼": {
+        "calories": 140,
+        "protein": 16.0,
+        "carbs": 4.0,
+        "fat": 6.5,
+        "allergens": "无",
+        "tips": "酸爽开胃，鱼片嫩滑"
+    },
+    "肉末蒸蛋": {
+        "calories": 120,
+        "protein": 10.0,
+        "carbs": 3.0,
+        "fat": 8.0,
+        "allergens": "鸡蛋",
+        "tips": "嫩滑鲜美，老少皆宜"
+    },
+    "炒包菜丝": {
+        "calories": 65,
+        "protein": 1.8,
+        "carbs": 6.0,
+        "fat": 4.0,
+        "allergens": "无",
+        "tips": "酸辣脆嫩，下饭不错"
+    },
+    "面筋": {
+        "calories": 140,
+        "protein": 15.0,
+        "carbs": 8.0,
+        "fat": 5.0,
+        "allergens": "小麦",
+        "tips": "植物蛋白，口感独特"
+    },
+    "家常腐竹": {
+        "calories": 150,
+        "protein": 14.0,
+        "carbs": 8.0,
+        "fat": 8.0,
+        "allergens": "大豆",
+        "tips": "豆制品高蛋白，家常美味"
+    },
+    "苹果": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 14.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "一天一苹果，健康相伴"
+    },
+    "红枣南瓜": {
+        "calories": 70,
+        "protein": 1.5,
+        "carbs": 16.0,
+        "fat": 0.5,
+        "allergens": "无",
+        "tips": "香甜软糯，补气养血"
+    },
+    "蛋挞": {
+        "calories": 230,
+        "protein": 4.0,
+        "carbs": 22.0,
+        "fat": 14.0,
+        "allergens": "小麦, 乳制品, 鸡蛋",
+        "tips": "酥脆香甜，高热量点心"
+    },
+    "炒生菜": {
+        "calories": 40,
+        "protein": 1.5,
+        "carbs": 4.0,
+        "fat": 2.0,
+        "allergens": "无",
+        "tips": "蚝油提鲜，注意控钠"
+    },
+    "糖醋鸡块": {
+        "calories": 240,
+        "protein": 14.0,
+        "carbs": 20.0,
+        "fat": 12.0,
+        "allergens": "无",
+        "tips": "酸甜酥脆，下饭好菜"
+    },
+    "豆角炒蛋": {
+        "calories": 120,
+        "protein": 7.0,
+        "carbs": 6.0,
+        "fat": 8.0,
+        "allergens": "鸡蛋",
+        "tips": "豆角脆嫩，鸡蛋鲜香"
+    },
+    "爆米花鸡": {
+        "calories": 250,
+        "protein": 14.0,
+        "carbs": 16.0,
+        "fat": 15.0,
+        "allergens": "无",
+        "tips": "香脆可口，休闲小吃"
+    },
+    "煮白菜": {
+        "calories": 15,
+        "protein": 1.0,
+        "carbs": 3.0,
+        "fat": 0.2,
+        "allergens": "无",
+        "tips": "清淡原味，健康低卡"
+    },
+    "炒鸡胗": {
+        "calories": 120,
+        "protein": 18.0,
+        "carbs": 2.0,
+        "fat": 4.0,
+        "allergens": "无",
+        "tips": "高蛋白低脂肪，内脏适量"
+    }
+}
+
+
 def get_nutrition(dish_name):
     """根据菜品名称返回营养数据，找不到返回None"""
     if dish_name in NUTRITION_DATA:
-        return NUTRITION_DATA[dish_name].copy()
+        return NUTRITION_DATA[dish_name].copy()   # .copy() 返回字典的副本，保护原始数据不被意外修改
+    return None
+
+
+def get_nutrition_multi(dish_name):
+    """根据菜品名称返回多目标模型的营养数据，找不到返回None"""
+    if dish_name in NUTRITION_DATA_MULTI:
+        return NUTRITION_DATA_MULTI[dish_name].copy()
     return None
 
 
 def get_all_dishes():
     """返回所有支持的菜品列表"""
-    return list(NUTRITION_DATA.keys())
+    return list(NUTRITION_DATA.keys())   # 返回所有一级字典键名（即所有菜品名）
 
