@@ -26,7 +26,7 @@
 | 层级 | 技术 |
 |------|------|
 | 后端框架 | Flask + Flask-CORS |
-| 深度学习 | Ultralytics YOLOv8 / YOLOv26 |
+| 深度学习 | Ultralytics YOLOv11m-cls / YOLOv26n |
 | AI 模型 | DeepSeek Chat API (Function Calling) |
 | 数据库 | SQLite |
 | 数据存储 | Pandas (Excel 类别映射) |
