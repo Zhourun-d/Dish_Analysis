@@ -45,8 +45,8 @@ Dish Analysis/
 ├── Dockerfile            # Docker 容器配置
 ├── .env                  # 环境变量（DeepSeek API Key）
 ├── dish_mapping/         # YOLO 类别映射（class_names.xlsx）
-├── model/                # YOLOv8 单目标识别模型（best.pt）
-└── model_yolov26/        # YOLOv26 多目标识别模型（best.pt）
+├── model/                # YOLOv11 单目标识别模型（best.pt）
+└── model_yolo26/         # YOLO26 多目标识别模型（best.pt）
 ```
 
 
