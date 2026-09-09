@@ -14,7 +14,7 @@
 | 小膳 | 总协调员 | 多智能体协作调度，支持 Function Calling 对话 |
 
 ### 核心功能
-- 菜品识别：基于 YOLOv11m-cls / YOLOv26n 模型识别图片中的菜品（支持单目标与多目标）
+- 菜品识别：基于 YOLOv11m-cls / YOLO26n 模型识别图片中的菜品（支持单目标与多目标）
 - 营养查询：内置 400+ 常见菜品营养数据库（热量、蛋白质、碳水、脂肪、过敏原）
 - 个性化推荐：结合用户 BMI、运动量、健康目标、过敏原生成定制建议
 - 饮食记录：保存识别历史，支持按时间倒序查询与删除
@@ -26,7 +26,7 @@
 | 层级 | 技术 |
 |------|------|
 | 后端框架 | Flask + Flask-CORS |
-| 深度学习 | Ultralytics YOLOv11m-cls / YOLOv26n |
+| 深度学习 | Ultralytics YOLOv11m-cls / YOLO26n |
 | AI 模型 | DeepSeek Chat API (Function Calling) |
 | 数据库 | SQLite |
 | 数据存储 | Pandas (Excel 类别映射) |
