@@ -322,29 +322,6 @@ image: <图片文件>
 开发模式改 `analyze.py` 末尾 `app.run()` 的 `port` 参数；Docker 模式改 `Dockerfile` 里 gunicorn 的 `-b` 参数。
 
 
-## 已知问题
-
-以下是目前仍存在、但不影响正常启动与使用的问题：
-
-1. **用餐时间的时区口径不一致**
-   写入记录时用的是 Python 的本地时间（`datetime.now()`），而 `services.get_user_records()` 的窗口过滤用的是 SQLite 的 `datetime('now')`（UTC）。在东八区，「最近 7 天」实际会多算 8 小时。统一存 UTC 或统一用 `localtime` 即可。
-
-2. **删除记录接口不校验归属**
-   `/api/record/delete` 只按 `id` 匹配，未校验 `user_id`，理论上可以删除他人的记录。建议加上 `AND user_id = ?`。
-
-3. **`/api/chat` 会重复插入 system 消息**
-   `call_deepseek_with_tools()` 直接原地修改传入的 `messages`，而两轮调用都传了 `system_prompt`，导致第二条 system 消息被再次插入到开头。对输出影响很小，但确实多余。
-
-4. **Function Calling 场景下上下文不完整**
-   `agent.call_xiaoji_for_records()` 传入的 `user_profile` 是空字典，小记在工具调用路径下看不到用户的 BMI/目标/过敏原；`agent.call_xiaowu_for_nutrition()` 也没有去取历史记录。这与直接调用 `/api/xiaowu_advice` 时的效果不一致。
-
-5. **`/api/record/list` 的 `total` 是当页条数**
-   返回的 `total` 等于本次查询返回的记录数，并非该用户记录总数，做分页判断时会不准。
-
-6. **`build_xiaoan_prompt()` 未被使用**
-   过敏判断走的是 `call_xiaoan_for_allergy()` 里的本地逻辑（响应更快，且不消耗 token），该提示词构建函数属于遗留代码。
-
-
 ## 注意事项
 
 - 模型文件 `best.pt` 需分别放置在 `model/` 与 `model_yolov26/` 目录下
