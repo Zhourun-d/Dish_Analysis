@@ -21,7 +21,7 @@ AI 提示词构建模块
 """
 
 import re
-from analyze import get_user_records, call_deepseek
+from services import get_user_records, call_deepseek
 from nutrition_lib import get_nutrition
 
 

@@ -1,9 +1,7 @@
-flask
-flask-cors
-pandas
-ultralytics
-requests
-python-dotenv
-openpyxl
-crewai
-langchain-openai
+Flask==3.1.0
+flask-cors==5.0.0
+ultralytics==8.3.0
+pandas==2.2.0
+openpyxl==3.1.5
+requests==2.32.0
+python-dotenv==1.0.0
